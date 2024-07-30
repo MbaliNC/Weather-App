@@ -5,18 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
     <title>Weather Application</title>
 </head>
 
 <body>
-    <h1>Weather</h1>
-    <footer>Coded by
-        <a href="https://github.com/MbaliNC" target="_blank"> Mbali Cele </a> and is
-        <a href="https://github.com/MbaliNC/Weather-App" target="_blank"> open-sourced on Github </a> and the website is
-        hosted on
-        <a href="https://built-weather-app.netlify.app/" target="_blank"> Netlify </a>
+    <div class="weather-app">
+        <header>
+            <form>
+                <input type="search" placeholder="Enter a city..." required />
+                <input type="submit" value="Search" />
+            </form>
+        </header>
+        <main>
+            <h1>Paris</h1>
+            <p>Tuesday 14:48, Sunny
+                <br />
+                Humidity: 66%, Wind: 3.15km/h
+            </p>
+            <div class="current-temperature">
+                <span class="current-temperature-icon">☀️</span><span class="current-temperature-value"
+                    id="current-temperature">24</span><span class="current-temperature-unit">°C</span>
+            </div>
+        </main>
+        <footer>Coded by
+            <a href="https://github.com/MbaliNC" target="_blank"> Mbali Cele </a> and is
+            <a href="https://github.com/MbaliNC/Weather-App" target="_blank"> open-sourced on Github </a> and the
+            website is
+            hosted on
+            <a href="https://built-weather-app.netlify.app/" target="_blank"> Netlify </a>
 
-    </footer>
+        </footer>
+    </div>
 
 </body>
 
