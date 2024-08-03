@@ -1,13 +1,102 @@
 body {
-  background-color: orchid;
+  background: #4568dc;
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
   font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+header {
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #f9f7fe;
+}
+
+h1 {
+}
+
+a {
+  color: #885df1;
 }
 
 .weather-app {
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
+}
+
+.search-form-input {
+  width: 80%;
+  background-color: #f9f7fe;
+  border-radius: 7px;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  padding: 15px 20px;
+  color: #ffffff;
+  background: #885df1;
+  border: none;
+  border-radius: 8px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.weather-data {
+  justify-content: space-between;
+  display: flex;
+}
+
+.weather-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-details {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+
+.weather-details strong {
+  color: #f65282;
+}
+
+.weather-temperature-container {
+  display: flex;
+}
+
+.weather-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-temperature {
+  font-weight: bold;
+  font-size: 85px;
+  margin-left: 10px;
+}
+
+.weather-unit {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
 }
