@@ -3,32 +3,30 @@ body {
   background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
   background: linear-gradient(to right, #b06ab3, #4568dc);
   font-family: "Dosis", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
 }
 
 header {
-  padding: 0 0 20px 0;
+  padding: 30px;
   border-bottom: 1px solid #f9f7fe;
 }
 
 a {
-  text-decoration: none;
   color: #885df1;
 }
 
 .weather-app {
-  background-color: #ffffff;
+  background: #ffffff;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   max-width: 600px;
-  margin: 30px auto;
+  margin: 60px auto;
   padding: 30px;
 }
 
 .search-form-input {
   width: 80%;
   background-color: #f9f7fe;
+  color: rgba(39, 33, 66, 0.4);
   border-radius: 7px;
   border: none;
   padding: 15px 20px;
