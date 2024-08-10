@@ -26,9 +26,9 @@ a {
 .search-form-input {
   width: 80%;
   background-color: #f9f7fe;
-  color: rgba(39, 33, 66, 0.4);
   border-radius: 7px;
   border: none;
+  color: rgba(39, 33, 66, 0.4);
   padding: 15px 20px;
   font-size: 16px;
 }
@@ -63,7 +63,7 @@ main {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  color: #000000;
+  color: rgba(39, 33, 66, 0.4);
 }
 
 .weather-details strong {
@@ -75,18 +75,18 @@ main {
 }
 
 .weather-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-temperature {
   font-weight: bold;
   font-size: 85px;
-  margin-left: 10px;
+  line-height: 88px;
 }
 
 .weather-unit {
-  margin-top: 20px;
+  margin-top: 6px;
   font-size: 28px;
 }
 
