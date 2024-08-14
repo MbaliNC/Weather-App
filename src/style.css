@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  padding: 30px;
+  padding: 0 0 30px 0;
   border-bottom: 1px solid #f9f7fe;
 }
 
@@ -19,7 +19,7 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   max-width: 600px;
-  margin: 60px auto;
+  margin: 45px auto;
   padding: 30px;
 }
 
@@ -34,12 +34,12 @@ a {
 }
 
 .search-form-button {
-  padding: 15px 20px;
+  padding: 15px 30px;
   color: #ffffff;
   background: #885df1;
   border: none;
   border-radius: 8px;
-  margin-left: 8px;
+  margin-left: 6px;
   font-size: 16px;
   line-height: 1;
 }
@@ -55,7 +55,7 @@ main {
 
 .weather-city {
   margin: 0;
-  font-size: 45px;
+  font-size: 43px;
   line-height: 48px;
 }
 
@@ -81,7 +81,7 @@ main {
 
 .weather-temperature {
   font-weight: bold;
-  font-size: 85px;
+  font-size: 88px;
   line-height: 88px;
 }
 
@@ -102,6 +102,7 @@ main {
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .weather-forecast-icon {
