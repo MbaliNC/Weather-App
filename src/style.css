@@ -1,7 +1,11 @@
 body {
-  background: #4568dc;
-  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
-  background: linear-gradient(to right, #b06ab3, #4568dc);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/141/288/original/colourfulsky.jpg?1724878172");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  margin: 0;
+  height: 100vh;
   font-family: "Dosis", sans-serif;
 }
 
@@ -15,8 +19,8 @@ a {
 }
 
 .weather-app {
-  background: #ffffff;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  background-color: rgba(207, 207, 207, 0.5);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
   border-radius: 16px;
   max-width: 600px;
   margin: 45px auto;
@@ -28,7 +32,6 @@ a {
   background-color: #f9f7fe;
   border-radius: 7px;
   border: none;
-  color: rgba(39, 33, 66, 0.4);
   padding: 15px 20px;
   font-size: 16px;
 }
@@ -41,7 +44,12 @@ a {
   border-radius: 8px;
   margin-left: 6px;
   font-size: 16px;
-  line-height: 1;
+}
+
+.search-form-button:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(192, 192, 192, 0.4),
+    0 17px 50px 0 rgba(220, 220, 220, 0.19);
 }
 
 main {
@@ -63,7 +71,7 @@ main {
   font-size: 18px;
   font-weight: bold;
   line-height: 24px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #ffffff;
 }
 
 .weather-details strong {
@@ -75,19 +83,21 @@ main {
 }
 
 .weather-icon {
-  width: 88px;
-  height: 88px;
+  font-size: 45px;
+  /*width: 88px;
+  height: 88px;*/
 }
 
 .weather-temperature {
   font-weight: bold;
   font-size: 88px;
-  line-height: 88px;
+  margin-left: 10px;
 }
 
 .weather-unit {
   margin-top: 6px;
   font-size: 28px;
+  font-weight: 300;
 }
 
 .weather-forecast {
@@ -98,7 +108,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
@@ -108,6 +118,9 @@ main {
 .weather-forecast-icon {
   font-size: 38px;
   text-align: center;
+  /*width: 100%;
+  display: block;
+  margin: 0 auto;*/
 }
 
 .weather-forecast-temperatures {
@@ -127,5 +140,6 @@ footer {
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 17px;
+  margin-top: 20px;
   color: #000000;
 }
