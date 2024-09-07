@@ -75,7 +75,7 @@ main {
 }
 
 .weather-details strong {
-  color: #f65282;
+  color: #aa336a;
 }
 
 .weather-temperature-container {
@@ -84,8 +84,6 @@ main {
 
 .weather-icon {
   font-size: 45px;
-  /*width: 88px;
-  height: 88px;*/
 }
 
 .weather-temperature {
@@ -116,16 +114,15 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
-  /*width: 100%;
+  width: 88px;
+  height: 88px;
   display: block;
-  margin: 0 auto;*/
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #aa336a;
   display: flex;
   justify-content: center;
   margin-top: 10px;
